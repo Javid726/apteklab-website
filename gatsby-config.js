@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/apteklab-website",
   /* Your site config here */
   plugins: [],
 }

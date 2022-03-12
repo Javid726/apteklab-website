@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 
 *,
 *::after,
@@ -12,13 +12,110 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  height: 100vh;
+  font-size: 3rem;
+  color: #ededed;
+  background-color: #286151;
+}
+
+.container {
+  background: linear-gradient(
+      217deg,
+      #80a1b8,
+      rgb(243, 243, 243),
+      #afe0e5,
+      #d2bca7,
+      rgb(231, 243, 240)
+    ),
+    linear-gradient(
+      217deg,
+      rgb(231, 231, 233) 70%,
+      rgb(255, 255, 255),
+      rgb(243, 243, 243)
+    ),
+    linear-gradient(336deg, #d2bca7 70%, rgb(255, 255, 255), rgb(243, 243, 243));
+
+  color: #000;
+  height: 650px;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  margin-top: 30px;
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  right: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 75vh;
-  font-size: 3rem;
-  color: red;
-  background-color: #ededed;
+  justify-content: space-between;
+  border-bottom: 1px solid #0d0c22;
+  padding-bottom: 20px;
+}
+
+.logo {
+  align-self: flex-start;
+  color: #d41b3d;
+}
+
+.navbar-list {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.navbar-list--item {
+  font-size: 22px;
+}
+
+.navbar-list--item::after {
+  content: "";
+  height: 1px;
+  background-color: #0d0c22;
+  margin-top: 5px;
+  width: 0;
+  display: block;
+  transition: 0.3s all ease-in-out;
+}
+
+.navbar-list--item:hover::after {
+  width: 100%;
+}
+
+/* .navbar-list--item:hover {
+  border-bottom: 1px solid #0d0c22;
+} */
+
+a {
+  color: #000;
+}
+
+.navbar-action--button {
+  font-family: inherit;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0d0c22;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-action--button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-action--button:active {
+  transform: translateY(0);
+  box-shadow: none;
 }

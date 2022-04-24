@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <div className="container">
         <Navbar />
-        {/* <p>Soon will be here...</p> */}
+        <p className="container-paragraph">Tezliklə xidmətinizdəyik...</p>
       </div>
     </div>
   )

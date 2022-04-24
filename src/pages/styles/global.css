@@ -50,15 +50,12 @@ body {
 }
 
 .navbar {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  right: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #0d0c22;
-  padding-bottom: 20px;
+  margin: 0 20px;
+  padding: 10px 0 20px 0;
 }
 
 .logo {
@@ -118,4 +115,14 @@ a {
 .navbar-action--button:active {
   transform: translateY(0);
   box-shadow: none;
+}
+
+.container-paragraph {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  letter-spacing: 0.5px;
+  color: #555;
 }

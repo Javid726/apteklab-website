@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkapteklab_website=self.webpackChunkapteklab_website||[]).push([[682],{518:function(e,t,a){a.r(t);var u=a(294);t.default=function(){return u.createElement("div",null,"about")}}}]);
+//# sourceMappingURL=component---src-pages-about-js-ec655ddd32bb07bc468a.js.map

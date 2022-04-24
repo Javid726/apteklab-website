@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkapteklab_website=self.webpackChunkapteklab_website||[]).push([[883],{616:function(e,t,n){n.r(t);var l=n(294);t.default=function(){return l.createElement("div",null,l.createElement("h2",null,"404 Not Found"),l.createElement("p",null,"Sorry, the page you looking for doesn't exist :("))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-16772781af8dd242ca11.js.map

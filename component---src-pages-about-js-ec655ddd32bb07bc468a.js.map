@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-about-js-ec655ddd32bb07bc468a.js","mappings":"4IAMA,UAJc,WACZ,OAAO","sources":["webpack://apteklab-website/./src/pages/about.js"],"sourcesContent":["import React from \"react\"\n\nconst About = () => {\n  return <div>about</div>\n}\n\nexport default About\n"],"names":[],"sourceRoot":""}
